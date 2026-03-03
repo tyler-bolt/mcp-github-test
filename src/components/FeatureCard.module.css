@@ -19,14 +19,14 @@
 }
 
 .title {
-  color: var(--color-text-primary);
+  color: #fff;
   font-size: 1.25rem;
   font-weight: 600;
   margin: 0 0 0.75rem 0;
 }
 
 .description {
-  color: var(--color-text-secondary);
+  color: rgba(255, 255, 255, 0.7);
   font-size: 0.95rem;
   line-height: 1.6;
   margin: 0;
