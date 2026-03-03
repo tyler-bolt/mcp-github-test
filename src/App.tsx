@@ -4,8 +4,6 @@ import CodeViewer from './components/CodeViewer'
 import ConsoleOutput from './components/ConsoleOutput'
 import FeatureCard from './components/FeatureCard'
 import StatsCard from './components/StatsCard'
-import ThemeToggle from './components/ThemeToggle'
-import { useTheme } from './hooks/useTheme'
 import type { ProjectConfig } from './types'
 import styles from './App.module.css'
 
@@ -24,14 +22,9 @@ const CONFIG_JSON = `{
 }`
 
 export default function App() {
-  const { theme, toggleTheme } = useTheme();
-
   return (
     <div className={styles.layout}>
       <Header />
-      <div className={styles.themeToggleWrapper}>
-        <ThemeToggle theme={theme} onToggle={toggleTheme} />
-      </div>
       <main className={styles.main}>
         <div className={styles.container}>
           <section className={styles.hero}>

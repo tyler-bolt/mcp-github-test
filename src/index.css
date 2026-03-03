@@ -26,23 +26,6 @@
   --font-mono: 'JetBrains Mono', 'Fira Code', monospace;
 }
 
-[data-theme='light'] {
-  --color-bg: #ffffff;
-  --color-surface: #f6f8fa;
-  --color-surface-2: #ffffff;
-  --color-border: #d0d7de;
-  --color-text-primary: #1f2328;
-  --color-text-secondary: #636c76;
-  --color-text-muted: #8c959f;
-  --color-accent: #0969da;
-  --color-accent-hover: #0550ae;
-  --color-success: #1a7f37;
-  --color-warning: #9a6700;
-  --color-error: #d1242f;
-  --color-tag-bg: #ddf4ff;
-  --color-tag-text: #0969da;
-}
-
 html, body {
   height: 100%;
   background: var(--color-bg);
@@ -51,7 +34,6 @@ html, body {
   font-size: 14px;
   line-height: 1.5;
   -webkit-font-smoothing: antialiased;
-  transition: background 0.3s ease, color 0.3s ease;
 }
 
 #root {
