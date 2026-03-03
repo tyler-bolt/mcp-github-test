@@ -74,7 +74,7 @@
 }
 
 .sectionTitle {
-  color: var(--color-text-primary);
+  color: #fff;
   font-size: 2rem;
   font-weight: 700;
   margin: 0 0 2rem 0;
@@ -132,13 +132,13 @@
 }
 
 .techName {
-  color: var(--color-text-primary);
+  color: #fff;
   font-size: 1.1rem;
   font-weight: 600;
 }
 
 .techDesc {
-  color: var(--color-text-secondary);
+  color: rgba(255, 255, 255, 0.6);
   font-size: 0.85rem;
 }
 
