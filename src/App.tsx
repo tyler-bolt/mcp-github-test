@@ -28,7 +28,7 @@ export default function App() {
       <main className={styles.main}>
         <div className={styles.container}>
           <section className={styles.hero}>
-            <h1 className={styles.heroTitle}>MCP GitHub Test</h1>
+            <h1 className={styles.heroTitle}>MCP GitHub Test Temp</h1>
             <p className={styles.heroDesc}>
               A minimal project for testing GitHub MCP (Model Context Protocol) tools — imported directly from GitHub into Bolt.
             </p>
